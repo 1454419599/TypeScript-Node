@@ -10,7 +10,9 @@
     "prestart": "echo 正在编译，成功后启动index.js...",
     "start": "npm run myTsc && npm run myNode",
     "prerestart": "echo index.js 成功",
-    "myInspect": "node --inspect dist/app.js"
+    "myInspect": "node --inspect dist/app.js",
+  
+    "createDB": "node dist/init.js"
   },
   "author": "",
   "license": "ISC",
